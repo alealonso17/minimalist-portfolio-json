@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Alejandro Alonso Lopez",
+    "label": "Computer Science Student specializing in Software Design and Web Development",
+    "image": "./src/assets/profilePic.png",
+    "email": "2alejandroalonso70@gmail.com",
+    "phoneUK": "+44 749 393 8646",
+    "phoneES": "+34 664 395 270",
+    "url": "https://www.linkedin.com/in/alejandro-alonso-lopez-b9145b353/",
+    "summary": "Second-year Computer Science BSc (Hons) student at Robert Gordon University, passionate about Software and Web Development. Strong interest in creating innovative solutions, with a solid foundation in programming, problem solving, and collaborative projects.",
+    "location": {
+      "address": "Hollybank Pl",
+      "postalCode": "AB11 6XS",
+      "city": "Aberdeen",
+      "countryCode": "GB",
+      "region": "Scotland"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "alejandro-alonso-lopez-b9145b353",
+        "url": "https://www.linkedin.com/in/alejandro-alonso-lopez-b9145b353/"
+      },
+      {
+        "network": "GitHub",
+        "username": "alealonso17",
+        "url": "https://github.com/alealonso17"
+      }
+
+    ]
+  },
+  "work": [
+  {
+    "name": "Bakio Surf Cleaner",
+    "position": "Software Developer",
+    "url": "",
+    "startDate": "2024-01-01",
+    "endDate": "2024-02-01",
+    "summary": "Developed a desktop application for a surf school to automatically filter and remove short video clips from surf session recordings, improving training efficiency.Designed and implemented a user-friendly tool tailored for surf coaches, automated repetitive video management tasks using Python and enhanced workflow efficiency and saved significant time in training analysis.",
+    "highlights": [
+      "Designed and implemented a user-friendly tool tailored for surf coaches, ",
+      "automated repetitive video management tasks using Python and ",
+      "enhanced workflow efficiency and saved significant time in training analysis."
+    ]
+  }
+
+  ],
+  "volunteer": [
+    {
+      "organization": "RGU Hackathon",
+      "position": "Participant",
+      "url": "https://www.rgu.ac.uk",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "summary": "Participated in the 2024 RGU Hackathon, collaborating with peers to design and develop innovative solutions under time constraints.",
+      "highlights": [
+        "Team collaboration",
+        "Problem-solving",
+        "Rapid prototyping"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Robert Gordon University",
+      "url": "https://www.rgu.ac.uk",
+      "area": "Computer Science BSc (Hons)",
+      "studyType": "Bachelor",
+      "startDate": "2024-09-01",
+      "endDate": "2028-06-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+"awards": [
+  {
+    "title": "2nd Place - FLL Robotics Competition",
+    "date": "2016-01-01",
+    "awarder": "First Lego League",
+    "summary": "Achieved 2nd place in robotics competition at age 12, demonstrating early interest and talent in technology and innovation."
+  },
+  {
+    "title": "4th Place - FLL Scientific Project",
+    "date": "2016-01-01",
+    "awarder": "First Lego League",
+    "summary": "Awarded 4th place in scientific project category, highlighting creativity and applied problem solving."
+  },
+  {
+    "title": "1st Place - FLL Team Values",
+    "date": "2016-01-01",
+    "awarder": "First Lego League",
+    "summary": "Recognized for teamwork and collaboration in the values category."
+  },
+  {
+    "title": "Cambridge English Advanced (C1)",
+    "date": "2023-01-01",
+    "awarder": "Cambridge University",
+    "summary": "Certified C1 level in English, proving advanced proficiency in communication, writing, and comprehension."
+  },
+  {
+    "title": "Participant - RGU Hackathon",
+    "date": "2024-02-01",
+    "awarder": "Robert Gordon University",
+    "summary": "Took part in RGU Hackathon 2024, collaborating with a team to design and prototype an innovative app in a short timeframe."
+  }
+],
+  "certificates": [
+    {
+      "name": "Certificates listed in CV",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming & Development",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Machine Learning libraries",
+        "SQL",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "Node.js",
+        "Astro",
+        "JavaScript",
+        "C#",
+        "C++"
+      ]
+    }, 
+    {
+        "name" : "Software & IT"
+    },
+    {
+        "name" : "Team Work  & Communication"
+    },
+    {
+        "name": "Probem Solving "
+    }
+  ],
+  "languages": [
+    {
+      "language": "Languages listed in CV",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports & Technology",
+      "keywords": [
+        "Bodyboarding",
+        "Surfing",
+        "Software Development",
+        "Web Development"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Wild Buddy",
+      "startDate": "2024-02-01",
+      "endDate": "2024-02-02",
+      "description": "Hackathon project app that analyzes, tracks and identifies animals, helping scientists, students and zookeepers.",
+      "highlights": [
+        "Developed computer vision and data analysis features",
+        "Built under tight deadlines during RGU Hackathon"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Bakio Surf Cleaner",
+      "startDate": "2025-01-01",
+      "endDate": "2025-02-01",
+      "description": "Desktop app for surf school coaches to automatically remove short video clips from surf session recordings.",
+      "highlights": [
+        "Developed with Python",
+        "Improved training efficiency by automating repetitive tasks"
+      ],
+      "url": ""
+    },
+    {
+      "name": "League of Legends Matchup Predictor",
+      "startDate": "2025-02-01",
+      "endDate": "",
+      "description": "Machine learning project to predict match outcomes based on player and champion data.",
+      "highlights": [
+        "Implemented models using scikit-learn",
+        "Data normalization and preprocessing"
+      ],
+      "url": ""
+    }
+  ]
+}

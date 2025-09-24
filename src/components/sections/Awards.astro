@@ -1,0 +1,44 @@
+---
+import Section from "../Section.astro"
+import {awards} from "@cv" 
+
+---
+
+<Section title="Awards and Certificates "> 
+   <ul> 
+    {
+        awards.map(({title}) => (
+            <li>
+                <span>{title}</span> 
+            </li>
+        ))
+    }
+   </ul>
+</Section>
+
+
+<style>
+    ul{
+        display: inline-flex;
+        gap: 8px; 
+
+
+    }
+
+    li{
+        border-radius: 6px;
+        background: #eee; 
+        color: black; 
+        font-size: .8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.5rem;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    li:hover{
+        
+        background: #c9c9c9; 
+        transform: scale(1.01);
+    }
+</style>
+
