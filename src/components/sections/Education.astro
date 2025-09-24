@@ -1,9 +1,96 @@
 ---
 import Section from "../Section.astro"
 
-
+import {education} from "@cv"
 --- 
 
 <Section title="Education"> 
+        <ul> 
+        {education.map(({institution, startDate,endDate, studyType, area}) =>{
+            const startYear = new Date(startDate).getFullYear()
+            const endYear = endDate != null ? new Date(endDate).getFullYear(): "On-going"
+            const years = `${startYear} - ${endYear}` 
 
+            return (<li> 
+                <article>
+                    <header>
+                        <div> 
+                            <h3>{institution} </h3>                             
+                            <h4>{studyType}</h4>
+                            
+                        </div>
+                        <time>{years}</time>
+                    </header>
+                    <footer>
+                       <h3>{area} </h3>
+                        
+                    </footer>
+
+
+                </article>
+            </li>
+        ) 
+        }
+        )
+        }
+    
+
+
+
+    </ul>
 </Section>
+
+<style>
+    header div{
+        display: flex; 
+        flex-direction: row;
+        gap: 2rem; 
+    }
+    ul{
+
+        display:flex; 
+        flex-direction: column;
+        margin-top: 20px;
+        gap:32px;
+    }
+
+    article h3{
+        font-weight: 500;
+        color:#111;
+    }
+
+    article h4{
+        color: #222; 
+        font-weight: 400;
+    }
+
+    footer h3{
+        font-weight: 100;
+        color:#7c7b7b;
+        font-size: .8rem;
+    }
+    header{
+        display:flex; 
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+
+    }
+
+    time{
+        color:#555;
+        font-size: 0.85rem;
+    }
+
+    header h4{
+       
+        border: 1px solid  #a9a7a7;
+        background: #acacac;
+        border-radius: 6px;
+        display: inline-block;
+        font-size: .7rem;
+        font-weight: 600;
+        padding: 0.2rem 0.5rem;
+
+    }
+</style>

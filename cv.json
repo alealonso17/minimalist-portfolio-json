@@ -66,42 +66,61 @@
       "url": "https://www.rgu.ac.uk",
       "area": "Computer Science BSc (Hons)",
       "studyType": "Bachelor",
-      "startDate": "2024-09-01",
-      "endDate": "2028-06-01",
-      "score": "",
+      "startDate": "2024",
+      "endDate": "2028",
+      
       "courses": []
-    }
+    },
+    {
+    "institution": "Jesús María School, Bilbao",
+    "url": "https://jesusmariaikastetxea.com/",
+    "area": "High School Diploma (Science and Technology)",
+    "studyType": "High School",
+    "startDate": "2003",
+    "endDate": "2021",
+    "score": "",
+    "courses": []
+  }
   ],
 "awards": [
   {
     "title": "2nd Place - FLL Robotics Competition",
     "date": "2016-01-01",
     "awarder": "First Lego League",
-    "summary": "Achieved 2nd place in robotics competition at age 12, demonstrating early interest and talent in technology and innovation."
+    "summary": "Achieved 2nd place in robotics competition at age 12, demonstrating early interest and talent in technology and innovation.",
+    "url":  "https://www.firstlegoleague.org/"
   },
   {
     "title": "4th Place - FLL Scientific Project",
     "date": "2016-01-01",
     "awarder": "First Lego League",
-    "summary": "Awarded 4th place in scientific project category, highlighting creativity and applied problem solving."
+    "summary": "Awarded 4th place in scientific project category, highlighting creativity and applied problem solving.",
+    "url":  "https://www.firstlegoleague.org/"
   },
   {
     "title": "1st Place - FLL Team Values",
     "date": "2016-01-01",
     "awarder": "First Lego League",
-    "summary": "Recognized for teamwork and collaboration in the values category."
+    "summary": "Recognized for teamwork and collaboration in the values category.",
+    "url":  "https://www.firstlegoleague.org/"
   },
   {
     "title": "Cambridge English Advanced (C1)",
     "date": "2023-01-01",
     "awarder": "Cambridge University",
-    "summary": "Certified C1 level in English, proving advanced proficiency in communication, writing, and comprehension."
+    "summary": "Certified C1 level in English, proving advanced proficiency in communication, writing, and comprehension.",
+    "url":"https://www.cambridgeenglish.org/exams-and-tests/advanced/"
   },
   {
     "title": "Participant - RGU Hackathon",
     "date": "2024-02-01",
     "awarder": "Robert Gordon University",
-    "summary": "Took part in RGU Hackathon 2024, collaborating with a team to design and prototype an innovative app in a short timeframe."
+    "summary": "Took part in RGU Hackathon 2024, collaborating with a team to design and prototype an innovative app in a short timeframe.",
+    "url" :  "https://www.linkedin.com/feed/update/urn:li:activity:7304267532654288896/"
+  },
+  {
+    "title": "High School Diploma in Science and Technology",
+    "url":"https://colegiosjesusmaria.com/hello-world/"
   }
 ],
   "certificates": [

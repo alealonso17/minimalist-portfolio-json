@@ -2,14 +2,20 @@
 import Section from "../Section.astro"
 import {awards} from "@cv" 
 
+
 ---
 
 <Section title="Awards and Certificates "> 
    <ul> 
     {
-        awards.map(({title}) => (
+        awards.map(({title, url}) => (
             <li>
-                <span>{title}</span> 
+                <a  
+                    class="span" 
+                    href={url}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    >{title}</a> 
             </li>
         ))
     }
@@ -39,6 +45,10 @@ import {awards} from "@cv"
         
         background: #c9c9c9; 
         transform: scale(1.01);
+    }
+    
+    li a{
+        color: black;
     }
 </style>
 
