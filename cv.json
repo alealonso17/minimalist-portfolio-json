@@ -164,11 +164,15 @@
     {
       "name": "Wild Buddy",
       "startDate": "2024-02-01",
+      "isActive": false , 
       "endDate": "2024-02-02",
       "description": "Hackathon project app that analyzes, tracks and identifies animals, helping scientists, students and zookeepers.",
       "highlights": [
         "Developed computer vision and data analysis features",
-        "Built under tight deadlines during RGU Hackathon"
+        "Built under tight deadlines during RGU Hackathon",
+        "Worked with data analysis libraries and machine learning models in Python"
+    
+        
       ],
       "url": ""
     },
@@ -176,6 +180,7 @@
       "name": "Bakio Surf Cleaner",
       "startDate": "2025-01-01",
       "endDate": "2025-02-01",
+      "isActive": false , 
       "description": "Desktop app for surf school coaches to automatically remove short video clips from surf session recordings.",
       "highlights": [
         "Developed with Python",
@@ -184,15 +189,42 @@
       "url": ""
     },
     {
-      "name": "League of Legends Matchup Predictor",
+      "name": "UFC Matchup Predictor",
       "startDate": "2025-02-01",
       "endDate": "",
-      "description": "Machine learning project to predict match outcomes based on player and champion data.",
+      "isActive": false , 
+      "description": "Machine learning project to predict future fights.",
       "highlights": [
         "Implemented models using scikit-learn",
         "Data normalization and preprocessing"
       ],
       "url": ""
-    }
+    },
+     {
+    "name": "Personal Portfolio Website (Astro)",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "isActive": true , 
+    "description": "Responsive personal portfolio built with Astro, HTML and CSS to showcase projects and skills.",
+    "highlights": [
+      "Designed a clean, modern UI from scratch",
+      "Optimized for performance and accessibility",
+      "Implemented responsive design for desktop and mobile"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Personal Portfolio Website (React)",
+    "startDate": "2025-02-01",
+    "endDate": "2025-02-10",
+    "isActive": false , 
+    "description": "Interactive personal portfolio built with React, JSX, HTML and CSS to present projects and achievements.",
+    "highlights": [
+      "Developed modular and reusable React components",
+      "Enhanced interactivity with JSX and dynamic rendering",
+      "Applied responsive design principles for all devices"
+    ],
+    "url": ""
+  }
   ]
 }
