@@ -2,7 +2,7 @@
   "basics": {
     "name": "Alejandro Alonso Lopez",
     "label": "Computer Science Student specializing in Software Design and Web Development",
-    "image": "./public/profilePic.png",
+    "image": "/profilePic.png",
     "email": "2alejandroalonso70@gmail.com",
     "phoneUK": "+44 749 393 8646",
     "phoneES": "+34 664 395 270",
